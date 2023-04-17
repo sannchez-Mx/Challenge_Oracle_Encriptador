@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  position: relative;
+  background-color: #f3f5fc;
+}
+#logo {
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+.inputO {
+  position: absolute;
+  width: 577px;
+  height: 48px;
+  left: 240px;
+  top: 168px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  background-color: #f3f5fc;
+  color: #0a3871;
+  border: none;
+}
+#warning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 329px;
+  height: 18px;
+  left: 240px;
+  top: 631px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+}
+#button_Box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 240px;
+  top: 600px;
+}
+.encriptarB {
+  padding: 24px;
+  width: 328px;
+  height: 67px;
+  background: #0a3871;
+  border-radius: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  color: #ffffff;
+}
+.desencriptarB {
+  box-sizing: border-box;
+  padding: 24px;
+  width: 328px;
+  height: 67px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0a3871;
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+}
+.copiarB {
+  box-sizing: border-box;
+  padding: 24px;
+  position: absolute;
+  width: 336px;
+  height: 67px;
+  left: 32px;
+  top: 553px;
+  border: 1px solid #0a3871;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0a3871;
+}
+#tBox_D {
+  position: absolute;
+  width: 400px;
+  height: 680px;
+  left: 70%;
+  top: 30px;
+  background: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+#code {
+  position: absolute;
+  width: 336px;
+  height: 781px;
+  left: 46px;
+  top: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #495057;
+}
+.muñeco {
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  left: 40px;
+  top: 5em;
+}
+#msjBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 320px;
+  height: 122px;
+  left: 40px;
+  top: 26em;
+}
+#msjB {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 320px;
+  height: 122px;
+  left: 40px;
+  top: 16em;
+}
+.N_msj {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  text-align: center;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.txt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: gray;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 300x;
+  top: 47em;
+  background: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.info{
+  display:inline;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+}

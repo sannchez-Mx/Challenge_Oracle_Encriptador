@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./images/LogoW.png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./styles/styles.css"
+    />
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="./Images/Logo.png" alt="Logo_alura" />
+    </header>
+    <input
+      class="inputO"
+      type="text"
+      id="textD"
+      name="textD"
+      value=""
+      placeholder="Ingrese el texto aqui"
+    />
+    <span id="warning"><img src="./Images/bi_exclamation-circle-fillicon.png" alt="warning_icon"> Solo letras minúsculas y sin acentos</span>
+    <div id="button_Box">
+      <button class="encriptarB" type="button" onclick="encriptar()">
+        Encriptar
+      </button>
+      <button class="desencriptarB" type="button" onclick="desencriptar()">
+        Desencriptar
+      </button>
+    </div>
+    <aside id="tBox_D">
+      <div id="divB">
+        <img class="muñeco" src="./Images/Muñeco.png" alt="muñeco_busqueda" />
+        <div id="msjBox">
+          <h2 class="N_msj">Ningún mensaje fue encontrado</h2>
+          <p class="txt">
+            Ingresa el texto que desees encriptar o desencriptar.
+          </p>
+        </div>
+      </div>
+    </aside>
+    <footer>
+      <div class="info">
+        <p>Author: Roberto Sánchez<br>
+          <em class="copy">©Sannchez-MX</em>
+          <div class="gitHub"><a class="a" href="https://github.com/sannchez-Mx"><i class="fab fa-facebook-f fa-2x"></a></i></div>
+          <div class="Link"><a class="a" href="https://www.linkedin.com/in/roberto-sanchez-873a16174/"><i class="fab fa-facebook-f fa-2x"></a></i></div>
+      </div>    
+    </footer>
+
+    <!--Scripts-->
+
+    <script src="./Scripts/main.js"></script>
+
+  </body>
+</html>
