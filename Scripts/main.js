@@ -8,9 +8,12 @@ let not_found_comp = `
 const encriptar = () => {
   let text = document.querySelector("#textD").value.toLowerCase();
   let mD = { a: "ai", e: "enter", i: "imes", o: "ober", u: "ufat" };
+  let acentos = {á:'a' ,é:'e', í:'i', ó:'o', ú:'u', ü : "u", ñ : "n"};
+  
+  let a = text.replace(/(?:á|é|í|ó|ú|ü|ñ)/g, (m) => acentos[m]);
 
-  if (text != "") {
-    res = [...text]
+  if (text != "")  {
+    res = [...a]
       .map((cod) =>
         cod
           .split("")
